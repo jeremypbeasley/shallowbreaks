@@ -1,0 +1,81 @@
+html {
+  min-height: 100%;
+}
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0;
+  font-family: typeface-primary;
+  background: color-white;
+  color: color-blue;
+  &.inverted {
+    background: color-blue;
+    color: color-white;
+  }
+}
+
+.main {
+  min-height: 100vh;
+}
+
+.content_home {
+  max-width: 28em;
+}
+
+.content_default {
+  max-width: 30em;
+  img {
+    width: 150%;
+    margin-left: -25%;
+  }
+}
+
+.sb_nav {
+  li a {
+    border-bottom: 2px solid color-blue;
+    padding-bottom: 3px;
+    color: color-blue;
+  }
+  &.inverted {
+    li a {
+      border-bottom: 2px solid color-white;
+      padding-bottom: 3px;
+      color: color-white;
+    }
+  }
+}
+
+.sb_logo {
+  path {
+    fill: color-blue;
+  }
+  &.inverted {
+    path {
+      fill: color-white;
+    }
+  }
+}
+
+.patagonia_logo {
+  display: inline;
+  width: 5.5em;
+  margin-bottom: -5px;
+  margin-left: 2px;
+
+}
+
+.bg_red {
+  background: red;
+}
+
+.bg_green {
+  background: green;
+}

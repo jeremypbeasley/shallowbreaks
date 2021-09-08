@@ -1,0 +1,31 @@
+---
+title: Shallow Breaks
+timezone: America/Los_Angeles
+collections:
+  uploads:
+    title: Uploads
+    output: true
+name: Canlis
+global_nav:
+- title: Episodes
+  slug: episodes
+- title: Cast & Crew
+  slug: poeople
+- title: Story
+  slug: story
+email: hello@shallowbreaks.com
+description: a new series, focused on humans working to bring us closer to the earth, to each other, and to ourselves.
+og_title: Shallow Breaks
+og_photo: "/uploads/kevin.jpg"
+baseurl:
+url: http://shallowbreaks.com
+twitter_username: shallowbreaks
+github_username: jeremypbeasley
+markdown: kramdown
+exclude:
+- Gemfile.lock
+- Gemfile
+- Gruntfile.js
+- node_modules
+- package.json
+- README.md
